@@ -44,7 +44,6 @@ class Level:
         self.music = pygame.mixer.Sound('../audio/music.mp3')
         self.music.play(loops=-1)
 
-
     def setup(self):
         tmx_data = load_pygame('../data/map.tmx')
 
